@@ -28,7 +28,7 @@ class Store:
         if item_name in self.items:
             print(f"Цена '{item_name}' на товар обновлена до '{new_price}'.")
         else:
-            print(f"Товар '{item_name}' не найден в магазине '{self.items}'.")
+            print(f"Товар '{item_name}' не найден в магазине '{self.name}'.")
 
     def __repr__(self):
         # текстовое представления магазина.
